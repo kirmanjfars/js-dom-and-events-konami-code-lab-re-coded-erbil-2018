@@ -14,9 +14,12 @@ function init() {
        index++; 
        console.log(key);
        if(code.length== index){
-         alert('harry')
+         alert('harry'); 
+         index=0;
        }
        
+     }else{
+       index=0;
      }
    });
 }
