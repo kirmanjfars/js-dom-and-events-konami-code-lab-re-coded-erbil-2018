@@ -9,5 +9,14 @@ function init() {
      
      const key = parseInt(e.detail  || e.which); 
      
+     if(code[index]==key){
+       
+       index++; 
+       
+       if(code.length== index){
+         alert('harry')
+       }
+       
+     }
    });
 }
