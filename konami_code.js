@@ -12,7 +12,7 @@ function init() {
      if(code[index]==key){
        
        index++; 
-       
+       console.log(key);
        if(code.length== index){
          alert('harry')
        }
